@@ -15,7 +15,7 @@ matplotlib.rcParams['axes.unicode_minus'] = False
 @st.cache_data
 def load_data():
     # 절대 경로 직접 입력
-    df = pd.read_csv(r"C:\Users\chloe\OneDrive\Documents\CE\data\cars.csv")
+    df = pd.read_csv("data/cars.csv")
     return df
 
 # 홈 화면
